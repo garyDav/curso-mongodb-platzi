@@ -1,6 +1,6 @@
-use("platzi_store")
+use("store")
 
-db.inventory.updateOne({_id: 4}, {
+db.inventory.updateOne({ _id: 4 }, {
   $push: {
     tags: "headphone"
   }

@@ -1,4 +1,4 @@
-use("platzi_store")
+use("store")
 
 // remove one element from array
 // db.inventory.updateMany({}, {

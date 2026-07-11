@@ -1,4 +1,4 @@
-use("platzi_store")
+use("store")
 
 db.products.insertOne({
   _id: 1,

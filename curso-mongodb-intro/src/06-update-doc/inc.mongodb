@@ -1,12 +1,12 @@
-use("platzi_store")
+use("store")
 
 db.products.updateOne(
-  // query
-  {_id: 2},
+  // query | filtros
+  { _id: 2 },
   // change => operators
-  {
-    $inc: {
-      price: 100,
-    }
-  }
+  { $inc: { price: 500 } }
 )
+
+// price = price(2000) + 500
+
+db.products.find({})

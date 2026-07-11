@@ -1,2 +1,2 @@
-use("platzi_store")
+use("store")
 db.inventory.find()
